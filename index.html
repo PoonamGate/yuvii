@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>your portfolio</title>
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
 
+    header {
+        background-color: #49063a;
+        color: rgb(230, 240, 237);
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #511f5b;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header> 
+        <h1>POONAM GATE</h1>
+        <NAV> 
+            <UL>
+                <LI>
+                    <A href="#About">About</A>
+                </LI>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#blog">blog</a>
+                </li>
+                <li>
+                  <a href="#portfolio">portfolio</a>
+                </li>
+            </UL>
+        </NAV>
+    </header>
+    <section>
+        <h2>INTRODUCTION</h2>
+        <p>"Embracing Innovation, Exploring Boundaries"
+            <br>
+            Hi there! I'm Poonam Gate, an tech enthusiastic and Versatile Learner student driven by an insatiable curiosity for emerging technologies and a relentless pursuit of knowledge. Curiosity-driven enthusiast with a passion for unveiling endless possibilities."</p>
+    </section>
+    <section>
+        <p>
+        <a href="https://www.iiita.ac.in/" target="main"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAz1BMVEX///8AAP//AADW1tb7+/sAAADj4+Pj4/9wcHDg4P/n5/++vr7q6v/0+PfC2dGyz8XZ5+Lt9PL/+Pj/LS3+v7+61MumyLz/NzeWv7GdwrVeXl7M39jm7+yItqeBgYGioqKkpP+srKxvqpZSUlIuLi7MzMyTk5NPT/98r57/4OA5OTmwsP/Kyv95eXlBQUGysq7Y2P//bm7/S0v8/PP/7+84jXJVm4T+z8//YWH/jY3/q6v+eXn/s7P/V1f/hIQQEBC8vP+Xl/+EhP9xcf/19f/PEyRbAAADr0lEQVRIidWVa3fbKBCGiSy5ThwxyDEEjPBFilzSrLPN1k4v290mbf//b9pBF1dClU/2S8/p+IPwMI8YhpcRIb+Z0f8RG7PWH5G8HGS8veLLSaZ0+y9VbCiya7rLkYSKF5Fa6LjrAQMv4GIwfh1j4J4nXK0225HnFL36M81S9zyvLSRbQsZkMw4bTxmV8NQHs6o8Z7WdT8fh/SYnf75tPOUWZeaXn3ERt8FXGzKZLqbjcQdMBffBmFXZv6rsnGzCm22U4LrntavcN2VeUUPO/eKsRuNRUXjVAT8s5t1znD2QZFsUm4I8zNp+6hc/0bpd6NlV8Bch794Rch1ch23QzzU1hqZtLpiTy9evL8k8aJOMWtkFNSavuxy5ODu7JCV5zFZzb0tEp9w0Oq+5GmyvyaTkSVfkkksqeIdrwBYJgkroajrmSlc39MgdwSMZ85QqHnZAxrSwgPveH7kfoCOvcJ8JWNDMkw4oEJyVYM21QCSv9k6WiktfJ7GgKXdHuW+4NkjmrrCAIeBJjhAOQsrObWuDZVJSCuj3Q6mUKpMdAjVXUknRA5kULEUu+TmYuAIyZfx7XILKZgrfGfbBWOBsZhWYfhsNFShhjbSW+v0uZGCtNFaAUD0OlwTCsNlpkqak894EWw2h2N4YEf1MHWnswWgBEpVFXdXLs44pdy6g9mDlQL9nEqRVAvAGUO00kjLKqUYRI2px8qfrlTVgKA4BipftkqUpKhGDBapKcXay1SdhSKnIHg0m5yoFYMxjJqgOw55kuiDNKDYWYw1wijrhwg014Zn/zeini/0BUsqBqsMBsDnhdcOuchq7fV8tyzE7FKY0YJR4zHhFzWeD4NV19dRUC0mlNHiNBKsFPAs+DHF4Xz+WgxQyYAIlLfGR1V3/QxDcDoPBp4pkxoA9HDBXk1an9zEYBsmnoFkTD9E1e9Bp9fUjf+PU58E9kvDzP4juneQVB00BhY/u23+D4GE+jFW2nzsQhDFKWVP2zP37/cBCbatc2NdjqmPU0WAIIbt8N6ltt1suomjhup4QKG/h2tANepa7HzFvVjW4/DKuR3GxfBNF0aT8fDFEtVOac91vi2ahUXQEo6goB4s8zxfOlh0rXXl+vy2DNlEbrHz5yaqNd+Vj0gan1SCvs3m6e1qv7/BHnp7XT3d/dECyOoKTXTF1Vtw04Nevz89v189rsv62/nYE82kVlm+bHEa1bWvwez3x/QJHF8dUN01cr/VsRuMTNi0Gtx+PTlo4CP4S+w80mVkNNoRDpQAAAABJRU5ErkJggg==" height="100">IIITA</a>
+        Acadamics;)
+        <img src="/image1.jpg" height="200">
+        Unveiling Possibilities
+        
+    </p>
+    </section>
+    <section>
+        <h2>Let's Connect</h2>
+        <p>email:iec2022087@iiita.ac.in
+            <br>
+            github: "https://github.com/PoonamGate"
+        </p>
+        <p>Feel free to reach out! I'm always excited to connect, learn, and explore new opportunities together</p>
+    </section>
+
+</body>
+<footer>© 2023 Your Portfolio</footer>
+
+</html>
